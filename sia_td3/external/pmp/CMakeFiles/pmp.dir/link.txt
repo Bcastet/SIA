@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -pedantic -Wall -Wextra -Wno-deprecated-copy -Wno-int-in-bool-context -fopenmp -msse -O3 -DNDEBUG    -fopenmp -shared -Wl,-soname,libpmp.so.1.2.1 -o libpmp.so.1.2.1 CMakeFiles/pmp.dir/SurfaceMesh.cpp.o CMakeFiles/pmp.dir/SurfaceMeshIO.cpp.o CMakeFiles/pmp.dir/SurfaceNormals.cpp.o CMakeFiles/pmp.dir/Version.cpp.o rply/CMakeFiles/rply.dir/rply.c.o 
